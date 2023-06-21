@@ -14,7 +14,7 @@
 $ sudo apt update
 $ sudo apt install nodejs npm
 $ sudo apt install git
-$ git clone https://github.com/phloxsnouts-0q/jav-scraping.git
+$ git clone https://github.com/phloxsnouts-0q/jav-scraping.git 
 $ cd jav-scrapy
 $ npm install # 安装npm包依赖
 $ sudo npm link    # 使jav-scrapy全局可执行
