@@ -11,7 +11,10 @@
 ## Installation
 
 ```bash
-$ git clone https://github.com/raawaa/jav-scrapy.git
+$ sudo apt update
+$ sudo apt install nodejs npm
+$ sudo apt install git
+$ git clone https://github.com/phloxsnouts-0q/jav-scraping.git
 $ cd jav-scrapy
 $ npm install # 安装npm包依赖
 $ sudo npm link    # 使jav-scrapy全局可执行
@@ -52,7 +55,7 @@ $ jav -s ipz -p 20 -o /path/to/folder
 $ jav -s ipz-634 -o /path/to/folder
 
 # 抓取「连裤袜」主题的所有影片
-$ jav -b http://www.javbus.in/genre/28
+$ jav -b http://www.javbus.com/genre/28
 
 # 使用代理
 $ jav -x http://127.0.0.1:8087
@@ -70,8 +73,3 @@ $ jav -x http://127.0.0.1:8087
 const baseUrl = 'https://www.javbus.com/';
 ```
 
-## Contributors
-
-- [@qiusli](https://github.com/qiusli)
-- [@Eddie104](https://github.com/Eddie104)
-- [@leongfeng](https://github.com/leongfeng)
